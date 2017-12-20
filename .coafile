@@ -1,0 +1,23 @@
+[html]
+bears = HTMLLintBear
+files = **.html
+htmllint_ignore = optional_tag, protocol, indentation, concerns_separation, capitalization
+
+[yml]
+bears = YAMLLintBear
+files = **.yml
+
+[spacing]
+bears = SpaceConsistencyBear
+files = **.html, **.css
+use_spaces = True
+
+[javascript]
+files = **.js
+bears = JSHintBear
+allow_unused_variables = True
+javascript_strictness = False
+
+[CSS]
+files = **.css
+bears = CSSLintBear
